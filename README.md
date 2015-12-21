@@ -20,6 +20,9 @@
     [i18n]
         commitencoding = utf-8
         logoutputencoding = utf-8
+    [push]
+        # only pushes the current branch to the corresponding remote branch that 'git pull' uses to update the current branch.
+        default = simple
     
     2. 
     git config --global user.name "John Doe"
